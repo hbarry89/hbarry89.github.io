@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+section,
+footer {
+    background-color: lightblue;
+}
+
+a {
+    color: gray
+}
