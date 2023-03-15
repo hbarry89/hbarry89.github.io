@@ -1,12 +1,27 @@
-body {
-    text-align: center;
-}
-
-section,
-footer {
-    background-color: lightblue;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
     color: gray
+}
+
+.navbar {
+    background-color: thistle !important;
+}
+
+.parent-container {
+    margin: 100px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
+    border: solid rgb(187, 187, 187) 1px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
 }
