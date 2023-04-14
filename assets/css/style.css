@@ -43,6 +43,11 @@ h4 {
     margin: 10px;
 }
 
+.card-body {
+    height: 250px;
+    overflow: auto;
+}
+
 footer {
     padding: 15px 0;
     position: fixed;
