@@ -13,7 +13,8 @@ h1 {
 }
 
 .nav-link:hover,
-.footer-link:hover {
+.footer-link:hover,
+.card-link:hover {
     color: lightslategray
 }
 
@@ -27,7 +28,7 @@ h4 {
 }
 
 .parent-container {
-    margin: 100px;
+    margin: 80px;
 }
 
 .container {
@@ -36,6 +37,10 @@ h4 {
     background-color: rgb(247, 247, 247);
     border: solid rgb(187, 187, 187) 1px;
     border-radius: 5px;
+}
+
+.card {
+    margin: 10px;
 }
 
 footer {
