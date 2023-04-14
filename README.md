@@ -13,6 +13,7 @@
 ### Assets :sparkles:
 - [Bootstrap](https://getbootstrap.com/)
 - [Favicon](https://favicon.io/)
+- [Visitor Counter](https://www.freevisitorcounters.com/)
 
 ### Applications Used :gear:
 - VS Code

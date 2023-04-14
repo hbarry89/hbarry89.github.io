@@ -55,6 +55,12 @@ h4 {
     overflow: auto;
 }
 
+.visitor-container {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
 footer {
     padding: 15px 0;
     position: fixed;
