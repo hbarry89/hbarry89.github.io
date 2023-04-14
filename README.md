@@ -12,6 +12,7 @@
 
 ### Assets :sparkles:
 - [Bootstrap](https://getbootstrap.com/)
+- [Favicon](https://favicon.io/)
 
 ### Applications Used :gear:
 - VS Code

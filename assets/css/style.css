@@ -7,9 +7,16 @@ h1 {
 }
 
 .navbar {
-    background-color: thistle !important;
+    background-color: rgb(127, 127, 137) !important;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.navbar-brand {
+    padding: 10px 40px;
+    background-color: rgb(231, 216, 231);
+    border: solid rgb(187, 187, 187) 1px;
+    border-radius: 5px;
 }
 
 .nav-link:hover,
