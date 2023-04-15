@@ -2,19 +2,24 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves-pattern.png");
+    background-color: #cccccc;
+   }
+
 h1 {
     text-align: center;
 }
 
 .navbar {
-    background-color: rgb(127, 127, 137) !important;
+    background-color: rgb(127, 127, 137, 0.7) !important;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .navbar-brand {
-    padding: 10px 40px;
-    background-color: rgb(231, 216, 231);
+    padding: 6px 40px;
+    background-color: rgb(231, 216, 231, 0.3);
     border: solid rgb(187, 187, 187) 1px;
     border-radius: 5px;
 }
@@ -41,7 +46,7 @@ h4 {
 .container {
     margin: 30px;
     padding: 30px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247, 0.6);
     border: solid rgb(187, 187, 187) 1px;
     border-radius: 5px;
 }
@@ -69,11 +74,15 @@ footer {
     height: 50px;
     font-size: small;
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(50, 49, 53);
     text-align: center;
     color: white;
   }
 
 .footer-link {
     color: white;
+}
+
+.bold {
+    font-weight: bold;
 }

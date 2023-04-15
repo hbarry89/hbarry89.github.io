@@ -14,6 +14,7 @@
 - [Bootstrap](https://getbootstrap.com/)
 - [Favicon](https://favicon.io/)
 - [Visitor Counter](https://www.freevisitorcounters.com/)
+- [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 
 ### Applications Used :gear:
 - VS Code
