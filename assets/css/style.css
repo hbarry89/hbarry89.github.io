@@ -4,7 +4,6 @@
 
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves-pattern.png");
-    background-color: #cccccc;
    }
 
 h1 {
@@ -12,22 +11,23 @@ h1 {
 }
 
 .navbar {
-    background-color: rgb(127, 127, 137, 0.7) !important;
+    background-color: rgba(233, 217, 197, 0.7) !important;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .navbar-brand {
     padding: 6px 40px;
-    background-color: rgb(231, 216, 231, 0.3);
-    border: solid rgb(187, 187, 187) 1px;
-    border-radius: 5px;
+    background-color: rgba(101, 82, 64, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
 }
 
 .nav-link:hover,
 .footer-link:hover,
 .card-link:hover {
-    color: lightslategray
+    color: gray;
 }
 
 a {
@@ -60,27 +60,28 @@ h4 {
     overflow: auto;
 }
 
-.visitor-container {
-    text-align: center;
-    align-items: center;
-    margin: 20px;
-}
-
 footer {
     padding: 15px 0;
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 50px;
+    height: 65px;
+    opacity: 97%;
     font-size: small;
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(50, 49, 53);
+    background-color: rgb(81, 80, 86);
     text-align: center;
     color: white;
   }
 
 .footer-link {
     color: white;
+}
+
+.footer-end {
+    font-size:x-small;
+    color: gray;
+    padding-top: 5px;
 }
 
 .bold {

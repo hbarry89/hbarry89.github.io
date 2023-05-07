@@ -13,8 +13,9 @@
 ### Assets :sparkles:
 - [Bootstrap](https://getbootstrap.com/)
 - [Favicon](https://favicon.io/)
-- [Visitor Counter](https://www.freevisitorcounters.com/)
+- [Icon Finder](https://www.iconfinder.com/)
 - [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+- [Google Fonts](https://fonts.google.com/)
 
 ### Applications Used :gear:
 - VS Code
