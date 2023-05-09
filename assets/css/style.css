@@ -56,6 +56,12 @@ h4 {
     border-radius: 5px;
 }
 
+.avatar {
+    border-radius: 100px;
+    padding: 30px;
+    float: left;
+}
+
 .card {
     margin: 10px;
 }
@@ -85,7 +91,12 @@ footer {
     padding-top: 10px;
 }
 
-.fa-brands:hover {
+.connect {
+    color: white;
+    padding: 5px;
+}
+
+.connect:hover {
     animation: fa-beat-fade 1s infinite;
   }
   
