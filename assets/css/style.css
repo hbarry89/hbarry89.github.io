@@ -1,3 +1,11 @@
+:root {
+    --navbar: #eee2d3;
+    --navbar-brand: rgb(198, 174, 152);
+    --border: rgb(200, 200, 200);
+    --container-bg: rgb(247, 247, 247);
+    --footer: rgb(58, 58, 67);
+  }
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -11,14 +19,14 @@ h1 {
 }
 
 .navbar {
-    background-color: rgba(233, 217, 197, 0.7) !important;
+    background-color: var(--navbar) !important;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .navbar-brand {
     padding: 6px 40px;
-    background-color: rgba(101, 82, 64, 0.3);
+    background-color: var(--navbar-brand);
     border-radius: 10px;
     font-weight: bold;
     font-family: 'Bad Script', cursive;
@@ -51,8 +59,8 @@ h4 {
 .container {
     margin: 30px;
     padding: 20px;
-    background-color: rgb(247, 247, 247, 0.6);
-    border: solid rgb(187, 187, 187) 1px;
+    background-color: var(--container-bg, 0.6);
+    border: solid var(--border) 1px;
     border-radius: 5px;
 }
 
@@ -73,8 +81,8 @@ h4 {
 
 .certificate {
     margin: 5px;
+    border: solid var(--border) 1px;
     border-radius: 10px;
-    border: solid rgb(200, 200, 200) 1px;
 }
 
 footer {
@@ -86,13 +94,13 @@ footer {
     opacity: 97%;
     font-size: small;
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(58, 58, 67);
+    background-color: var(--footer);
     text-align: center;
     color: white;
   }
 
 .footer-end {
-    font-size:xx-small;
+    font-size: xx-small;
     color: black;
     padding-top: 10px;
 }
