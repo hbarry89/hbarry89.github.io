@@ -16,8 +16,11 @@
 - [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
+- [Better Placeholder](https://betterplaceholder.com/)
 
 ### Applications Used :gear:
 - VS Code
+- ChatGPT
 
 <p align="center">Thank you for visiting! :ribbon:</p>

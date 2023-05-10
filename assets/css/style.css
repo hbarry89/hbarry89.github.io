@@ -1,6 +1,6 @@
 :root {
     --navbar: #eee2d3;
-    --navbar-brand: rgb(198, 174, 152);
+    --navbar-brand: #c6ae98;
     --border: rgb(200, 200, 200);
     --footer: rgb(58, 58, 67);
   }
@@ -34,12 +34,19 @@ h1 {
 
 .navbar-brand:hover {
     transform: scaleX(-1);
+    cursor: pointer;
 }
 
 .nav-link:hover,
 .footer-link:hover,
 .card-link:hover {
     color: gray;
+}
+
+.info-nav {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    font-size: small;
 }
 
 a {
