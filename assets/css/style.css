@@ -2,7 +2,6 @@
     --navbar: #eee2d3;
     --navbar-brand: rgb(198, 174, 152);
     --border: rgb(200, 200, 200);
-    --container-bg: rgb(247, 247, 247);
     --footer: rgb(58, 58, 67);
   }
 
@@ -59,7 +58,7 @@ h4 {
 .container {
     margin: 30px;
     padding: 20px;
-    background-color: var(--container-bg, 0.6);
+    background-color: rgb(247, 247, 247, 0.6);
     border: solid var(--border) 1px;
     border-radius: 5px;
 }
