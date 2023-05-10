@@ -50,7 +50,7 @@ h4 {
 
 .container {
     margin: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(247, 247, 247, 0.6);
     border: solid rgb(187, 187, 187) 1px;
     border-radius: 5px;
@@ -58,17 +58,23 @@ h4 {
 
 .avatar {
     border-radius: 100px;
-    padding: 30px;
+    margin: 30px;
     float: left;
 }
 
 .card {
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .card-body {
-    height: 250px;
+    height: 200px;
     overflow: auto;
+}
+
+.certificate {
+    margin: 5px;
+    border-radius: 10px;
+    border: solid rgb(200, 200, 200) 1px;
 }
 
 footer {
