@@ -11,12 +11,15 @@ function getInfo() {
       return response.json();
     })
     .then(function (data) {
-      let info = data[currentInfoIndex].text;
+      let info = data[currentInfoIndex];
+      let quote = `"${info.text}" - ${info.author}`
       infoDisplay.textContent = "";
-      infoDisplay.append(info);
+      infoDisplay.append(quote);
       currentInfoIndex++;
       if (currentInfoIndex >= data.length) {
           currentInfoIndex = 0;
       }
-    });
-}
+    })
+    .catch(function(error) {
+      console.error(error);
+    })};
