@@ -58,6 +58,10 @@ h4 {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .parent-container {
     margin: 80px;
 }
@@ -65,35 +69,79 @@ h4 {
 .container {
     margin: 20px auto;
     padding: 10px;
-    background-color: rgb(247, 247, 247, 0.6);
+    /* background-color: rgb(247, 247, 247, 0.3); */
+    background-color: #fefefe;
     border: solid var(--border) 1px;
     border-radius: 5px;
 }
 
 .avatar {
+    border: dotted gray 1px;
     border-radius: 100px;
     margin: 30px;
     float: left;
+
+}
+
+.wrapper {
+    margin: 20px auto;
 }
 
 .card {
-    margin: 10px auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.card-body {
-    height: 200px;
-    overflow: auto;
-}
-
-.certificate {
+.portfolio-img-wrapper {
     padding: 10px;
     overflow: auto;
 }
 
+.project-img {
+    border: solid var(--border) 1px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.cert-img-wrapper {
+    width: 18rem;
+    padding: 10px;
+    background-color: #fefefe;
+    border: solid rgb(123, 123, 123) 1px;
+}
+
 .cert-img {
-    border: dotted var(--border) 1px;
+    border: solid darkgray 1px;
     border-radius: 3px;
 }
+
+.cert-img:hover {
+    border: dotted var(--border) 1px;
+}
+
+.icon-links {
+    color: black;
+    padding: 0px 10px;
+}
+
+.icon-links:hover {
+    animation: fa-beat-fade 1s infinite;
+  }
+  
+  @keyframes fa-beat-fade {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 
 footer {
     padding: 15px 0;
@@ -113,6 +161,10 @@ footer {
     font-size: xx-small;
     color: black;
     padding-top: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
 }
 
 .connect {
@@ -138,7 +190,3 @@ footer {
       transform: scale(1);
     }
   }
-
-.bold {
-    font-weight: bold;
-}
