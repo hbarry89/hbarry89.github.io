@@ -63,8 +63,8 @@ h4 {
 }
 
 .container {
-    margin: 30px;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
     background-color: rgb(247, 247, 247, 0.6);
     border: solid var(--border) 1px;
     border-radius: 5px;
@@ -77,7 +77,7 @@ h4 {
 }
 
 .card {
-    margin: 10px 0px;
+    margin: 10px auto;
 }
 
 .card-body {
@@ -86,9 +86,13 @@ h4 {
 }
 
 .certificate {
-    margin: 5px;
-    border: solid var(--border) 1px;
-    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.cert-img {
+    border: dotted var(--border) 1px;
+    border-radius: 3px;
 }
 
 footer {
