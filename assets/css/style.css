@@ -40,8 +40,7 @@ h1 {
 
 .nav-link:hover,
 .footer-link:hover,
-.card-link:hover,
-.quote:hover {
+.card-link:hover {
     animation: fa-fade 1s infinite;
 }
 
@@ -56,6 +55,7 @@ h1 {
 }
 
 .quote:hover {
+    animation: fa-fade 1s;
     cursor: pointer;
 }
 
