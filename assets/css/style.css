@@ -63,7 +63,7 @@ h4 {
 }
 
 .parent-container {
-    margin: 80px;
+    margin: 100px;
 }
 
 .container {
@@ -82,11 +82,20 @@ h4 {
 
 }
 
-.wrapper {
-    margin: 20px auto;
+.quote {
+    color: #534f49;
 }
 
-.card {
+.quote:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: 100px auto;
+}
+
+.card-extra {
     text-align: center;
     padding-top: 10px;
 }
@@ -102,7 +111,7 @@ h4 {
     height: 200px;
 }
 
-.cert-img-wrapper {
+/* .cert-img-wrapper {
     width: 18rem;
     padding: 10px;
     background-color: #fefefe;
@@ -112,10 +121,11 @@ h4 {
 .cert-img {
     border: solid darkgray 1px;
     border-radius: 3px;
-}
+} */
 
-.cert-img:hover {
-    border: dotted var(--border) 1px;
+.certificate:hover {
+    border: solid var(--border) 1px;
+    animation: fa-fade 1s;
 }
 
 .icon-links {
@@ -124,7 +134,7 @@ h4 {
 }
 
 .icon-links:hover {
-    animation: fa-beat-fade 1s infinite;
+    animation: fa-beat-fade 1s;
   }
   
   @keyframes fa-beat-fade {
@@ -163,7 +173,7 @@ footer {
 }
 
 .contact-info {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .connect {
@@ -172,7 +182,7 @@ footer {
 }
 
 .connect:hover {
-    animation: fa-beat-fade 1s infinite;
+    animation: fa-beat-fade 1s;
   }
   
   @keyframes fa-beat-fade {
