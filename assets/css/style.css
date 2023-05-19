@@ -69,7 +69,6 @@ h4 {
 .container {
     margin: 20px auto;
     padding: 10px;
-    /* background-color: rgb(247, 247, 247, 0.3); */
     background-color: #fefefe;
     border: solid var(--border) 1px;
     border-radius: 5px;
@@ -107,7 +106,7 @@ h4 {
     width: 18rem;
     padding: 10px;
     background-color: #fefefe;
-    border: solid rgb(123, 123, 123) 1px;
+    border: solid var(--border) 1px;
 }
 
 .cert-img {
