@@ -1,8 +1,9 @@
 :root {
     --navbar: #eee2d3;
+    --navbar-text-color-footer: #534f49;
     --navbar-brand: #c6ae98;
+    --container-bg: #fefefe;
     --border: rgb(200, 200, 200);
-    --footer: rgb(58, 58, 67);
   }
 
 * {
@@ -33,20 +34,29 @@ h1 {
 }
 
 .navbar-brand:hover {
-    transform: scaleX(-1);
+    animation: fa-flip 1s;
     cursor: pointer;
 }
 
 .nav-link:hover,
 .footer-link:hover,
-.card-link:hover {
-    color: gray;
+.card-link:hover,
+.quote:hover {
+    animation: fa-fade 1s infinite;
 }
 
 .info-nav {
-    background-color: rgb(247, 247, 247);
+    background-color: var(--container-bg);
     text-align: center;
     font-size: small;
+}
+
+.quote {
+    color: var(--navbar-text-color-footer);
+}
+
+.quote:hover {
+    cursor: pointer;
 }
 
 a {
@@ -69,7 +79,7 @@ h4 {
 .container {
     margin: 20px auto;
     padding: 10px;
-    background-color: #fefefe;
+    background-color: var(--container-bg);
     border: solid var(--border) 1px;
     border-radius: 5px;
 }
@@ -80,15 +90,6 @@ h4 {
     margin: 30px;
     float: left;
 
-}
-
-.quote {
-    color: #534f49;
-}
-
-.quote:hover {
-    color: gray;
-    cursor: pointer;
 }
 
 .wrapper {
@@ -111,18 +112,6 @@ h4 {
     height: 200px;
 }
 
-/* .cert-img-wrapper {
-    width: 18rem;
-    padding: 10px;
-    background-color: #fefefe;
-    border: solid var(--border) 1px;
-}
-
-.cert-img {
-    border: solid darkgray 1px;
-    border-radius: 3px;
-} */
-
 .certificate:hover {
     border: solid var(--border) 1px;
     animation: fa-fade 1s;
@@ -134,22 +123,7 @@ h4 {
 }
 
 .icon-links:hover {
-    animation: fa-beat-fade 1s;
-  }
-  
-  @keyframes fa-beat-fade {
-    0% {
-      opacity: 1;
-      transform: scale(1);
-    }
-    50% {
-      opacity: 0.5;
-      transform: scale(1.2);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
+    animation: fa-beat-fade 1s infinite;
   }
 
 footer {
@@ -158,10 +132,9 @@ footer {
     bottom: 0px;
     width: 100%;
     height: 65px;
-    opacity: 97%;
     font-size: small;
     font-family:'Courier New', Courier, monospace;
-    background-color: var(--footer);
+    background-color: var(--navbar-text-color-footer);
     text-align: center;
     color: white;
   }
@@ -182,7 +155,7 @@ footer {
 }
 
 .connect:hover {
-    animation: fa-beat-fade 1s;
+    animation: fa-fade 1s infinite;
   }
   
   @keyframes fa-beat-fade {
