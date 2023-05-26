@@ -14,10 +14,6 @@ body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves-pattern.png");
    }
 
-h1 {
-    text-align: center;
-}
-
 .navbar {
     background-color: var(--navbar) !important;
     padding-left: 50px;
@@ -39,8 +35,7 @@ h1 {
 }
 
 .nav-link:hover,
-.footer-link:hover,
-.card-link:hover {
+.footer-link:hover {
     animation: fa-fade 1s infinite;
 }
 
@@ -77,8 +72,7 @@ h4 {
 }
 
 .container {
-    margin: 20px auto;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: var(--container-bg);
     border: solid var(--border) 1px;
     border-radius: 5px;
@@ -110,11 +104,6 @@ h4 {
     border: solid var(--border) 1px;
     border-radius: 5px;
     height: 200px;
-}
-
-.certificate:hover {
-    border: solid var(--border) 1px;
-    animation: fa-fade 1s;
 }
 
 .icon-links {
