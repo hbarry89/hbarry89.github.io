@@ -1,26 +1,33 @@
 # Portfolio
 
-## Description
+## :pencil: Description
 
 - A personal portfolio website.
 
-## Usage
+## :computer: Usage
 
 - [Click here](https://hbarry89.github.io/) for the live link.
 
-## Credit
+## :wrench: Technologies Used
 
-### Assets :sparkles:
-- [Bootstrap](https://getbootstrap.com/)
+- HTML
+- CSS
+- JavaScript
+- API
+- Bootstrap
+- Google Fonts
+- Font Awesome
+- VS Code
+
+## :star2: Features
+
+- Quote API
+
+## :books: Resources
+
 - [Favicon](https://favicon.io/)
 - [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](https://fontawesome.com/)
 - [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
-- [Better Placeholder](https://betterplaceholder.com/)
-
-### Applications Used :gear:
-- VS Code
-- ChatGPT
+- [ChatGPT](https://openai.com/blog/chatgpt)
 
 <p align="center">Thank you for visiting! :ribbon:</p>
