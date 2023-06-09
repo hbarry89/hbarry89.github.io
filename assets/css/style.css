@@ -59,7 +59,12 @@ a {
     color: black;
 }
 
-h4 {
+h1,
+h2 {
+    font-size: x-large;
+}
+
+h3 {
     text-align: center;
 }
 
