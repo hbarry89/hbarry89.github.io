@@ -59,6 +59,11 @@ a {
     color: black;
 }
 
+a:hover {
+    animation: fa-fade 1s infinite;
+    color: gray;
+}
+
 h1,
 h2 {
     font-size: x-large;
