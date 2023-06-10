@@ -1,20 +1,22 @@
-let infoButton = document.getElementById('infoBtn');
-infoButton.addEventListener('click', getInfo);
+// --- Quote ---
+
+let quoteButton = document.getElementById('quote-button');
+quoteButton.addEventListener('click', getInfo);
 
 let currentInfoIndex = 0;
 
 function getInfo() {
-  let infoDisplay = document.getElementById("infoDisplay");
-  let infoUrl = 'https://type.fit/api/quotes'
-  fetch(infoUrl)
+  let quoteDisplay = document.getElementById("quote-display");
+  let quoteUrl = 'https://type.fit/api/quotes'
+  fetch(quoteUrl)
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
       let info = data[currentInfoIndex];
       let quote = `"${info.text}" - ${info.author}`
-      infoDisplay.textContent = "";
-      infoDisplay.append(quote);
+      quoteDisplay.textContent = "";
+      quoteDisplay.append(quote);
       currentInfoIndex++;
       if (currentInfoIndex >= data.length) {
           currentInfoIndex = 0;
@@ -23,3 +25,14 @@ function getInfo() {
     .catch(function(error) {
       console.error(error);
     })};
+
+// --- Toggle ---
+
+let toggleButton = document.getElementById('toggle-button');
+let body = document.body;
+let article = document.querySelector('article');
+
+toggleButton.addEventListener('click', function () {
+	body.classList.toggle('dark-mode');
+  article.classList.toggle('dark-mode');
+});
