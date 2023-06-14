@@ -29,35 +29,43 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a href="https://hbarry89.github.io/" rel="noreferrer"><div class="navbar-brand bold link">Huda Barry</div></a>
-                <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
-                <div class="navbar-nav">
-                    <a class="nav-link link" href="#about">About</a>
-                    <a class="nav-link link" href="#projects">Projects</a>
-                    <a class="nav-link link" href="https://github.com/hbarry89/" target="_blank">GitHub</a>
-                    <a class="nav-link link" href="./assets/files/Huda-Barry-Resume.pdf" target="_blank">Resume</a>
-                    <a class="nav-link link" href="#contact">Contact</a>
+        <nav>
+            <div class="row navbar navbar-expand-lg bg-body-tertiary">
+
+                <div class="col-lg-7">
+                    <div class="container-fluid">
+                        <a href="https://hbarry89.github.io/" rel="noreferrer"><div class="navbar-brand bold link">Huda Barry</div></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="navbar-nav">
+                        <a class="nav-link link" href="#about">About</a>
+                        <a class="nav-link link" href="#projects">Projects</a>
+                        <a class="nav-link link" href="https://github.com/hbarry89/" target="_blank">GitHub</a>
+                        <a class="nav-link link" href="./assets/files/Huda-Barry-Resume.pdf" target="_blank">Resume</a>
+                        <a class="nav-link link" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="col-md-1">
+                    <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
+                    <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
                 </div>
             </div>
-            <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
         </nav>
         <div class= "quote-nav" id="quote-display"></div>
     </header>
-
+    
     <main>
 
         <section id="about">
             <article>
-
                 <div class="row">
-
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <img class="img-fluid border img-wrapper avatar" src="./assets/files/image.png" alt="Personal Photo" width="300">
                     </div>
-
-                    <div class="aside col-8">
+                    <div class="col-lg-8">
                         <h1 class="bold">Huda Barry</h1>
                         <h2>Linguist, Web Developer, Conversation Designer</h2>
                         <br>
@@ -72,16 +80,24 @@
                         <p>HTML, CSS, Javascript, React, Bootstrap, RESTful APIs, Node.js, Express.js, MySQL2, MongoDB.</p>
                         <br>
                         <h5>Certifications:</h5>
-                        <p><a href="./assets/files/Huda Barry Coding Boot Camp Professional Development Certificate.pdf" target="_blank" rel="noreferrer" class="link">Web Development</a> | <a href="https://academy.conversationdesigninstitute.com/certificates/c643pyimcx" target="_blank" rel="noreferrer" class="link">Designing Conversations with Voiceflow and CDI</a> | <a href="https://academy.cognigy.com/certificates/safpwbhxfj" target="_blank" rel="noreferrer" class="link">Conversation Design Course</a></p>
+                        <p>
+                            <a href="./assets/files/Huda Barry Coding Boot Camp Professional Development Certificate.pdf" target="_blank" rel="noreferrer" class="link">Web Development</a>
+                            |
+                            <a href="https://academy.conversationdesigninstitute.com/certificates/c643pyimcx" target="_blank" rel="noreferrer" class="link">Designing Conversations with Voiceflow and CDI</a>
+                            |
+                            <a href="https://academy.cognigy.com/certificates/safpwbhxfj" target="_blank" rel="noreferrer" class="link">Conversation Design Course</a>
+                        </p>
                         <br>
                         <h5>Current areas of study:</h5>
-                        <p>Artificial Intelligence (AI), Natural Language Processing (NLP), Chatbots, Conversation Design.
-                        <br>Amazon Lex and Alexa Skills, DialogFlow, RASA, Voiceflow</p>
+                        <p>
+                            Artificial Intelligence (AI), Natural Language Processing (NLP), Chatbots, Conversation Design.
+                            <br>
+                            Amazon Lex and Alexa Skills, DialogFlow, RASA, Voiceflow
+                        </p>
                     </div>
-                    
                 </div>
-
             </article>
+            
         </section>
 
         <hr>
