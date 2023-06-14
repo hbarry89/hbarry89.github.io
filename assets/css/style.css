@@ -1,8 +1,8 @@
 :root {
-    --light: #f5f5f5;
+    --light: #fefefe;
     --dark: #33333a;
     --border: #c8c8c8;
-    --quote-bg: #e6e6e6;
+    --inner-bg: #e5e7ec;
     --footer-bg: #1e1d21;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .quote-nav {
-    background-color: azure;
+    background-color: var(--inner-bg);
     color: var(--dark);
     text-align: center;
     font-size: small;
@@ -41,18 +41,22 @@ body {
     cursor: pointer;
 }
 
+.link:hover {
+    animation: fa-fade 1s;
+}
+
+.icon-links:hover,
+.connect:hover {
+    animation: fa-beat-fade 1s infinite;
+}
+
 a {
     text-decoration: none;
     color: gray;
 }
 
-a:hover {
-    animation: fa-fade 1s;
-}
-
 section {
     margin: 50px;
-    /* background-color: red; */
 }
 
 .avatar {
@@ -74,6 +78,7 @@ section {
 }
 
 .card {
+    background: var(--inner-bg);
     color: var(--dark)
 }
 
@@ -98,11 +103,6 @@ h4,
 .connect {
     color: var(--light);
     margin: 20px 5px;
-}
-
-.icon-links:hover,
-.connect:hover {
-    animation: fa-beat-fade 1s infinite;
 }
 
 /* My Framework */
