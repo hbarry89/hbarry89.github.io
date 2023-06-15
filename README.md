@@ -27,7 +27,6 @@
 ## :books: Resources
 
 - [Favicon](https://favicon.io/)
-<!-- - [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) -->
 - [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
 - [ChatGPT](https://openai.com/blog/chatgpt)
 
