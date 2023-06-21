@@ -64,6 +64,10 @@ section {
     background-color: white;
 }
 
+div.skills > img {
+    margin: 10px 5px;
+}
+
 .img-wrapper {
     padding: 10px;
     overflow: auto;
