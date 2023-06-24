@@ -78,12 +78,22 @@ div.skills > img {
 }
 
 .project-img {
-    height: 200px;
+    height: 150px;
+    width: 250px;
+}
+
+h4 {
+    margin: 10px;
 }
 
 .card {
-    background: var(--inner-bg);
+    border-radius: 0px;
+    background: white;
     color: var(--dark)
+}
+
+.card-text {
+    font-size: small;
 }
 
 .icon-links {
@@ -124,9 +134,9 @@ h4,
     border-radius: 5px;
 }
 
-/* Darke Mode */
+/* Dark Mode */
 
-body.dark-mode {
+.dark-mode {
     background-color: var(--dark);
     color: var(--light);
 }

@@ -30,7 +30,9 @@ function getInfo() {
 
 let toggleButton = document.getElementById('toggle-button');
 let body = document.body;
+let card = document.querySelector('.card');
 
 toggleButton.addEventListener('click', function () {
     body.classList.toggle('dark-mode');
+    card.classList.toggle('dark-mode');
 });
