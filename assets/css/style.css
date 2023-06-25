@@ -140,3 +140,14 @@ h4,
     background-color: var(--dark);
     color: var(--light);
 }
+
+.dark-skills {
+    background-color: rgba(255, 255, 255, 0.127);
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.dark-card {
+    background-color: rgba(255, 255, 255, 0.127);
+    color: var(--light);
+}
