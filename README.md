@@ -18,6 +18,7 @@
 - Google Fonts
 - Font Awesome
 - Voiceflow Chatbot
+- Google Analytics
 - VS Code
 
 ## :star2: Features
