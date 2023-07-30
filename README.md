@@ -30,7 +30,7 @@
 
 - Favicon: [Favicon](https://favicon.io/)
 - Quotes API: [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
-- Chatbot: [Voiceflow](https://https://www.voiceflow.com/)
+- Chatbot: [Voiceflow](https://www.voiceflow.com/)
 - Bug fixing: [ChatGPT](https://openai.com/blog/chatgpt)
 
 <p align="center">Thank you for visiting! :ribbon:</p>
