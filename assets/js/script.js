@@ -14,7 +14,7 @@ function getInfo() {
         })
         .then(function (data) {
             let info = data[currentInfoIndex];
-            let quote = `"${info.text}" - ${info.author}`
+            let quote = `"${info.text}" - ${info.author.slice(0, -10)}` // slice to remove the last charachters added by the API
             quoteDisplay.textContent = "";
             quoteDisplay.append(quote);
             currentInfoIndex++;
