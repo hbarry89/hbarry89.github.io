@@ -32,6 +32,7 @@
 - Favicon: [Favicon](https://favicon.io/)
 - Quotes API: [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
 - Chatbot: [Voiceflow](https://www.voiceflow.com/)
-- Bug fixing: [ChatGPT](https://openai.com/blog/chatgpt)
+- Chatbot Icon: <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a>
+- Bug fixes: [ChatGPT](https://openai.com/blog/chatgpt)
 
 <p align="center">Thank you for visiting! :ribbon:</p>
