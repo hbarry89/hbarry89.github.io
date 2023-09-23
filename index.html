@@ -29,16 +29,14 @@
 
 <body>
     <header>
-        <nav>
-            <div class="row navbar navbar-expand-lg bg-body-tertiary">
 
-                <div class="col-lg-7">
-                    <div class="container-fluid">
-                        <a href="https://hbarry89.github.io/" rel="noreferrer"><div class="navbar-brand bold link">Huda Barry</div></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="https://hbarry89.github.io/" rel="noreferrer"><div class="navbar-brand bold link">Huda Barry</div></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link link" href="#about">About</a>
                         <a class="nav-link link" href="#projects">Projects</a>
@@ -47,15 +45,21 @@
                         <a class="nav-link link" href="#contact">Contact</a>
                     </div>
                 </div>
-
-                <div class="col-md-1">
+                <!-- Display on desktop (lg and above) -->
+                <div class="d-none d-lg-block ml-auto"> <!-- Push to the right on desktop -->
                     <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
                     <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
                 </div>
-
+                <!-- Display on mobile and tablet (below lg) -->
+                <div class="d-lg-none ml-auto"> <!-- Push to the right when collapsed -->
+                    <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
+                    <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
+                </div>
             </div>
         </nav>
+
         <div class= "quote-nav" id="quote-display"></div>
+
     </header>
     
     <main>
@@ -72,7 +76,7 @@
                         <br>
                         <ul>
                             <li>Master's Degree in Linguistics</li>
-                            <li>Certificates in Full Stack Web Development and Conversation Design</li>
+                            <li>Certificed Full Stack Web Developer</li>
                             <li>Experience in language data, with fluency in Arabic and English</li>
                             <li>Located in Augusta, GA (willing to relocate or remote)</li>
                         </ul>
@@ -81,6 +85,7 @@
                         <ul>
                             <li><a href="./assets/files/Huda Barry Coding Boot Camp Professional Development Certificate.pdf" target="_blank" rel="noreferrer" class="link">Full Stack Web Development</a> - Northwestern University</li>
                             <li><a href="./assets/files/Certified Conversation Designer - Huda Barry.pdf" target="_blank" rel="noreferrer" class="link">Conversation Designer</a> - Conversation Design Institute</li>
+                            <li><a href="#" target="_blank" rel="noreferrer" class="disabled link"></a>UX Design - Google (IN PROGRESS)</li>
                         </ul>
                         <br>
                         <h5>Technical Skills:</h5>
@@ -91,6 +96,7 @@
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" title="JavaScript" target="_blank"/>
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" title="React" target="_blank"/>
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" title="Bootstrap" target="_blank"/>
+                                <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/268319852-d491ff38-a0be-4f5b-9753-13b2d9a33606.png" alt="Figma" width="40" height="40" title="Figma" target="_blank"/>
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" title="Node.js" target="_blank"/>
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" title="Express.js" target="_blank"/>
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40" title="Python" target="_blank"/>
@@ -102,7 +108,6 @@
                             <div class="skills">
                                 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/247776338-2bec6e2e-39bd-405f-930c-a18907e9876f.png" alt="dialogflow" width="140" height="40" title="Dialogflow" target="_blank"/>
                                 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/247776339-ff34a379-c293-4cae-be24-d7dec348bf9e.png" alt="alexa" width="140" height="40" title="Alexa" target="_blank"/>
-                                <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/247777443-c9d3352c-ec2e-4ada-9730-ee60d1c0c857.png" alt="lex" width="130" height="30" title="Lex" target="_blank"/>
                                 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/247776332-76185987-03b2-4c42-86d1-8ceaeaa3ebe2.png" alt="voiceflow" width="130" height="30" title="Voiceflow" target="_blank"/>
                             </div>
                         </div>
@@ -373,6 +378,7 @@
     </footer>
 
     <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         (function(d, t) {
