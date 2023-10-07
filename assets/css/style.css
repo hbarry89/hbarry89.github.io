@@ -125,10 +125,6 @@ h4,
     text-align: center;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .border {
     border: solid var(--border) 1px;
     border-radius: 5px;

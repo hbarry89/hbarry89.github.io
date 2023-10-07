@@ -33,6 +33,7 @@
 - Quotes API: [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
 - Chatbot: [Voiceflow](https://www.voiceflow.com/)
 - Chatbot Icon: <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a>
-- Bug fixes: [ChatGPT](https://openai.com/blog/chatgpt)
+- Avatar: [unDraw](https://undraw.co/)
+- Bug fixes: [ChatGPT](https://chat.openai.com/)
 
 <p align="center">Thank you for visiting! :ribbon:</p>
