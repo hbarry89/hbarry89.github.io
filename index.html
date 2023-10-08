@@ -45,15 +45,8 @@
                         <a class="nav-link link" href="#contact">Contact</a>
                     </div>
                 </div>
-                <!-- Display on desktop (lg and above) -->
-                <div class="d-none d-lg-block ml-auto"> <!-- Push to the right on desktop -->
-                    <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
-                    <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
-                </div>
-                <!-- Display on mobile and tablet (below lg) -->
-                <div class="d-lg-none ml-auto"> <!-- Push to the right when collapsed -->
-                    <i id="quote-button" class="quote fa-solid fa-quote-right fa-lg" aria-label="quote"></i>
-                    <i id="toggle-button" class="toggle fa-solid fa-circle-half-stroke fa-lg" aria-label="toggle"></i>
+                <div class="form-check form-switch toggle-container">
+                    <input id="toggle-button" class="form-check-input toggle" type="checkbox" role="switch" id="flexSwitchCheckChecked" Checked>
                 </div>
             </div>
         </nav>
@@ -96,18 +89,19 @@
                         <br>
                         <div class="skills-wrapper">
                             <div class="skills">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30" title="HTML" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30" title="CSS" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30" title="JavaScript" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30" title="React" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30" title="Bootstrap" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" title="HTML" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" title="CSS" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="30" height="30" title="JavaScript" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="30" height="30" title="React" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="30" height="30" title="Bootstrap" target="_blank"/>
                                 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/268319852-d491ff38-a0be-4f5b-9753-13b2d9a33606.png" alt="Figma" width="30" height="30" title="Figma" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="30" height="30" title="Node.js" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="30" height="30" title="Express.js" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="30" height="30" title="Python" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="flask" width="30" height="30" title="Flask" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="30" height="30" title="MySQL" target="_blank"/>
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="30" height="30" title="MongoDB" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="30" height="30" title="Node.js" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="30" height="30" title="Express.js" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="Python" width="30" height="30" title="Python" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="Flask" width="30" height="30" title="Flask" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="30" height="30" title="MySQL" target="_blank"/>
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="30" height="30" title="MongoDB" target="_blank"/>
+                                <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/273464365-32418b47-86f3-426c-b191-a40bd71c9f94.png" alt="PostgreSQL" width="30" height="30" title="PostgreSQL" target="_blank"/>
                             </div>
                         </div>
                     </div>
@@ -123,11 +117,27 @@
                     
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
-                    <div class="col">
+                    <div class="card-container col center">
+                        <div class="card h-100 center">
+                            <h4 class="card-title">ChatFlow</h4>
+                            <div class="img-wrapper">
+                                <img src="https://fakeimg.pl/250x150?text=SOON" class="img-fluid border project-img card-img-top" alt="ChatFlow">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">ChatFlow is a conversational AI web app built with Open AI's API, Python, and React.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="/" target="_blank" rel="noreferrer"><i class="icon-links fa-solid fa-display fa-lg" aria-label="Live Link"></i></a>
+                                <a href="https://github.com/hbarry89/ChatFlow" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Repository"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container col center">
                         <div class="card h-100 center">
                             <h4 class="card-title">Pizza Bot</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/pizza-bot.png" class="border project-img card-img-top" alt="Pizza Bot">
+                                <img src="./assets/files/work/pizza-bot.png" class="img-fluid border project-img card-img-top" alt="Pizza Bot">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A bot that takes pizza orders, created using Google's Dialogflow.</p>
@@ -139,11 +149,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
-                            <h4 class="card-title">My Calculator - Alexa Skill</h4>
+                            <h4 class="card-title">My Calculator</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/my-calculator.png" class="border project-img card-img-top" alt="My Calculator Alexa Skill">
+                                <img src="./assets/files/work/my-calculator.png" class="img-fluid border project-img card-img-top" alt="My Calculator Alexa Skill">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">An Alexa Skill that performs basic operations, created using Alexa Skills Kit, AWS Lambda Function, Node.js.</p>
@@ -155,11 +165,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Trivia Night</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/trivia-night.png" class="border project-img card-img-top" alt="Trivia Night">
+                                <img src="./assets/files/work/trivia-night.png" class="img-fluid border project-img card-img-top" alt="Trivia Night">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A fun trivia web app created using HTML, CSS, Javascript, and API.</p>
@@ -171,27 +181,27 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
-                            <h4 class="card-title">HTML Email</h4>
+                            <h4 class="card-title">Magic 8 Ball</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/html-email.png" class="border project-img card-img-top" alt="HTML Email">
+                                <img src="./assets/files/work/magic-8-ball.png" class="img-fluid border project-img card-img-top" alt="Magic 8 Ball">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">A sample HTML Email created from scratch using HTML and CSS for email development and digital marketing purposes.</p>
+                                <p class="card-text">The Magic 8 Ball is a digital version of the classic toy, providing answers to questions with a click, using Python, Flask and Jinja templates.</p>
                             </div>
                             <div class="card-footer">
-                                <a href="https://hbarry89.github.io/HTML-Email/" target="_blank" rel="noreferrer"><i class="icon-links fa-solid fa-display fa-lg" aria-label="Live Link"></i></a>
-                                <a href="https://github.com/hbarry89/HTML-Email" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Repository"></i></a>
+                                <a href="https://hbarry89.github.io/Magic-8-Ball/" target="_blank" rel="noreferrer"><i class="icon-links fa-solid fa-display fa-lg" aria-label="Live Link"></i></a>
+                                <a href="https://github.com/hbarry89/Magic-8-Ball" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Repository"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Gaming Geeks</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/gaming-geeks.png" class="border project-img card-img-top" alt="Gaming Geeks">
+                                <img src="./assets/files/work/gaming-geeks.png" class="img-fluid border project-img card-img-top" alt="Gaming Geeks">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A gaming chatroom web app. A MERN stack project that uses MongoDB, Express.js, React, and Node.js.</p>
@@ -203,11 +213,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Movie Media Mania</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/movie-media-mania.png" class="border project-img card-img-top" alt="Movie Media Mania">
+                                <img src="./assets/files/work/movie-media-mania.png" class="img-fluid border project-img card-img-top" alt="Movie Media Mania">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A movie web app to search and comment on various movies. A front-end and back-end project that uses HTML, CSS, Javascript, and MySQL.</p>
@@ -219,11 +229,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Pupify</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/pupify.png" class="border project-img card-img-top" alt="Pupify">
+                                <img src="./assets/files/work/pupify.png" class="img-fluid border project-img card-img-top" alt="Pupify">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A simple, easy to use, web app about dogs. A front-end project that uses, HTML, CSS, Javascript, and APIs.</p>
@@ -235,11 +245,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">E-Commerce</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/e-commerce.png" class="border project-img card-img-top" alt="E-Commerce">
+                                <img src="./assets/files/work/e-commerce.png" class="img-fluid border project-img card-img-top" alt="E-Commerce">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">The back-end for an example retail company. Created using Node.js, Express.js, MySQL</p>
@@ -251,11 +261,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Social Network API</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/social-network-api.png" class="border project-img card-img-top" alt="Social Network API">
+                                <img src="./assets/files/work/social-network-api.png" class="img-fluid border project-img card-img-top" alt="Social Network API">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">The back-end for an example social network that uses a NoSQL.</p>
@@ -267,26 +277,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100 center">
-                            <h4 class="card-title">REGEX Tutorial</h4>
-                            <div class="img-wrapper">
-                                <img src="./assets/files/work/regex-tutorial.png" class="border project-img card-img-top" alt="REGEX Tutorial">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">A github gist that explains a regex used for matching emails.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://gist.github.com/hbarry89/d882544c557e4da93eca320ce5d6b03a" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Gist"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">SVG Logo Maker</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/svg-logo-maker.png" class="border project-img card-img-top" alt="SVG Logo Maker">
+                                <img src="./assets/files/work/svg-logo-maker.png" class="img-fluid border project-img card-img-top" alt="SVG Logo Maker">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">An SVG logo maker to generate a simple logo for various purposes.</p>
@@ -298,11 +293,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">README Generator</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/readme-generator.png" class="border project-img card-img-top" alt="README Generator">
+                                <img src="./assets/files/work/readme-generator.png" class="img-fluid border project-img card-img-top" alt="README Generator">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A README file generator to create professional README files for projects.</p>
@@ -314,11 +309,11 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="card-container col">
                         <div class="card h-100 center">
                             <h4 class="card-title">Weather Dashboard</h4>
                             <div class="img-wrapper">
-                                <img src="./assets/files/work/weather-dashboard.png" class="border project-img card-img-top" alt="Weather Dashboard">
+                                <img src="./assets/files/work/weather-dashboard.png" class="img-fluid border project-img card-img-top" alt="Weather Dashboard">
                             </div>
                             <div class="card-body">
                                 <p class="card-text">A web app to view the weather outlook for multiple cities.</p>
@@ -326,22 +321,6 @@
                             <div class="card-footer">
                                 <a href="https://hbarry89.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer"><i class="icon-links fa-solid fa-display fa-lg" aria-label="Live Link"></i></a>
                                 <a href="https://github.com/hbarry89/Weather-Dashboard" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Repository"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 center">
-                            <h4 class="card-title">React Portfolio</h4>
-                            <div class="img-wrapper">
-                                <img src="./assets/files/work/react-potfolio.png" class="border project-img card-img-top" alt="React Portfolio">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">A practice portfolio created using React.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://hbarry89.github.io/React-Portfolio/" target="_blank" rel="noreferrer"><i class="icon-links fa-solid fa-display fa-lg" aria-label="Live Link"></i></a>
-                                <a href="https://github.com/hbarry89/React-Portfolio" target="_blank" rel="noreferrer"><i class="icon-links fa-brands fa-github fa-lg" aria-label="Repository"></i></a>
                             </div>
                         </div>
                     </div>

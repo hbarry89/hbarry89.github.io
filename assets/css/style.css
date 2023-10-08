@@ -31,8 +31,18 @@ body {
     color: var(--dark);
 }
 
+.toggle-container {
+    display: flex;
+    align-items: center;
+}
+
 .toggle {
     margin: 0px 20px;
+}
+
+.form-check-input:checked {
+    background-color: var(--dark);
+    border-color: black;
 }
 
 .quote:hover,
@@ -79,17 +89,25 @@ div.skills > img {
 
 .project-img {
     height: 150px;
-    width: 250px;
+    width: 200px;
 }
 
 h4 {
     margin: 10px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
+    width: 300px;
     border-radius: 0px;
     background: white;
-    color: var(--dark)
+    color: var(--dark);
+    box-shadow: rgb(212, 212, 212) 5px 5px 20px;
 }
 
 .card-text {
