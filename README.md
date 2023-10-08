@@ -13,7 +13,6 @@
 - HTML
 - CSS
 - JavaScript
-- API
 - Bootstrap
 - Google Fonts
 - Font Awesome
@@ -23,14 +22,12 @@
 
 ## :star2: Features
 
-- Quote API
 - Toggle Dark/Light Modes
 - Chatbot
 
 ## :books: Resources
 
 - Favicon: [Favicon](https://favicon.io/)
-- Quotes API: [Zen Quotes](https://docs.zenquotes.io/zenquotes-documentation/)
 - Chatbot: [Voiceflow](https://www.voiceflow.com/)
 - Chatbot Icon: <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a>
 - Avatar: [unDraw](https://undraw.co/)

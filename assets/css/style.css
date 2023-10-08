@@ -17,23 +17,17 @@ body {
     color: var(--dark);
 }
 
-.quote-nav {
-    background-color: var(--inner-bg);
-    color: var(--dark);
-    text-align: center;
-    font-size: small;
-}
-
 .navbar-brand {
     margin: 0px 20px;
     font-family: 'Bad Script', cursive;
-    font-size: 30px;
+    font-size: 26px;
     color: var(--dark);
 }
 
 .toggle-container {
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 
 .toggle {
@@ -43,12 +37,6 @@ body {
 .form-check-input:checked {
     background-color: var(--dark);
     border-color: black;
-}
-
-.quote:hover,
-.toggle:hover {
-    animation: fa-fade 1s;
-    cursor: pointer;
 }
 
 .link:hover {
@@ -65,8 +53,12 @@ a {
     color: gray;
 }
 
+.row>.card-container {
+    margin-top: 75px;
+}
+
 section {
-    margin: 50px;
+    margin: 50px 150px;
 }
 
 .avatar {
@@ -94,6 +86,7 @@ div.skills > img {
 
 h4 {
     margin: 10px;
+    margin-top: 20px;
 }
 
 .card-container {
@@ -119,15 +112,6 @@ h4 {
     margin: 0px 10px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background-color: var(--footer-bg);
-    text-align: center;
-  }
-
-h4,
 .contact-info {
     margin-top: 20px;
 }
@@ -136,6 +120,14 @@ h4,
     color: var(--light);
     margin: 20px 5px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--footer-bg);
+    text-align: center;
+  }
 
 /* My Framework */
 
@@ -158,7 +150,7 @@ h4,
 .dark-skills {
     background-color: rgba(255, 255, 255, 0.127);
     border-radius: 10px;
-    margin-right: 200px;
+    margin-right: auto;
 }
 
 .dark-card {
