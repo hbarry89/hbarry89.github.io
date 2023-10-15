@@ -131,10 +131,6 @@ footer {
 
 /* My Framework */
 
-.center {
-    text-align: center;
-}
-
 .border {
     border: solid var(--border) 1px;
     border-radius: 5px;
