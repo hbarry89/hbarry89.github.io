@@ -104,7 +104,7 @@ h4 {
     border-radius: 0px;
     background: white;
     color: var(--dark);
-    box-shadow: rgb(212, 212, 212) 5px 5px 20px;
+    box-shadow: rgb(100, 100, 100) 5px 5px 15px;
 }
 
 .card-text {
