@@ -22,12 +22,13 @@
 
 ## :star2: Features
 
-- Toggle Dark/Light Modes
+- Dark and Light Modes
 - Chatbot
 
 ## :books: Resources
 
 - Favicon: [Favicon](https://favicon.io/)
+- Toggle: [UIVerse](https://uiverse.io/nihad-abbasov/smooth-fly-9)
 - Avatar: [unDraw](https://undraw.co/)
 - Bug fixes: [ChatGPT](https://chat.openai.com/)
 - Chatbot: [Voiceflow](https://www.voiceflow.com/)
