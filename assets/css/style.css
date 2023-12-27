@@ -1,7 +1,8 @@
 :root {
   --light: #fefefe;
   --dark: #212529;
-  --border: #c8c8c8;
+  --border-light: #c8c8c8;
+  --border-dark: #44494e;
   --inner-bg: #e5e7ec;
   --footer-bg: #1e1d21;
   --hover-light: #f8f9fa;
@@ -10,13 +11,10 @@
 
 body {
   font-family: 'Rubik', sans-serif;
-  background-color: var(--light);
-  color: var(--dark);
 }
 
 .navbar {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #c8dadf);
-  color: var(--dark);
 }
 
 .navbar-brand {
@@ -26,66 +24,56 @@ body {
   color: var(--dark);
 }
 
-.form-check-input:checked {
-  background-color: var(--dark);
-  border-color: black;
+.nav-link {
+  color: var(--dark) !important;
 }
 
+.nav-link:hover,
 .link:hover {
   animation: fa-fade 1s;
 }
 
-.icon-links:hover,
-.connect:hover {
+.icons:hover {
   animation: fa-beat-fade 1s infinite;
 }
 
 a {
   text-decoration: none;
-  color: gray;
 }
 
-.row>.card-container {
-  margin: 10px 0px;
+[data-bs-theme="light"] a {
+  color: var(--dark);
+}
+
+[data-bs-theme="dark"] a {
+  color: var(--light);
 }
 
 section {
   margin: 50px;
 }
 
+/* About Section */
+
 .avatar {
   float: right;
   background-color: white;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
 }
 
-div.skills > img {
-  margin: 10px 5px;
+[data-bs-theme="light"] .aside {
+  border-left: 1px solid var(--border-light);
 }
 
-.img-wrapper {
-  padding: 10px;
-  overflow: auto;
+[data-bs-theme="dark"] .aside {
+  border-left: 1px solid var(--border-dark);
 }
 
-.aside {
-  border-left: solid var(--border) 1px;
-}
-
-.project-img {
-  height: 150px;
-  width: 200px;
-}
-
-h2 {
-  margin: 40px 0px;
-}
-
-h4 {
-  margin: 10px;
-  margin-top: 20px;
-}
+/* Cards */
 
 .card-container {
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,29 +81,30 @@ h4 {
 
 .card {
   width: 300px;
-  border-radius: 0px;
-  background-color: white;
-  color: var(--dark);
-  box-shadow: rgb(25, 25, 25) 5px 5px 15px;
 }
 
-.card-text {
-  font-size: small;
+[data-bs-theme="light"] .card {
+  box-shadow: rgb(225, 225, 225) 5px 5px 5px;
 }
 
-.icon-links {
-  color: var(--dark);
-  margin: 0px 10px;
+[data-bs-theme="dark"] .card {
+  box-shadow: rgb(25, 25, 25) 5px 5px 5px;
 }
 
-.contact-info {
+.project-img {
+  height: 150px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.card-subtitle {
   margin-top: 20px;
+  display: block;
+  font-weight: bold;
 }
 
-.connect {
-  color: var(--light);
-  margin: 20px 5px;
-}
+/* Footer */
 
 footer {
   position: fixed;
@@ -125,28 +114,8 @@ footer {
   text-align: center;
   }
 
-/* My Framework */
-
-.border {
-  border: solid var(--border) 1px;
-  border-radius: 5px;
-}
-
-/* Dark Mode */
-
-.dark-mode {
-  background-color: var(--dark);
-  color: var(--light);
-}
-
-.dark-card {
-  background-color: var(--dark);
-  color: var(--light);
-}
-
-.dark-icon-links {
-  color: var(--light);
-  margin: 0px 10px;
+footer a {
+  color: var(--light) !important;
 }
 
 /* Toggle */
