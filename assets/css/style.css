@@ -79,21 +79,13 @@ section {
   align-items: center;
 }
 
-.card {
-  width: 300px;
+.project-card {
+  width: 400px;
 }
 
-[data-bs-theme="light"] .card {
-  box-shadow: rgb(225, 225, 225) 5px 5px 5px;
-}
-
-[data-bs-theme="dark"] .card {
-  box-shadow: rgb(25, 25, 25) 5px 5px 5px;
-}
-
-.project-img {
-  height: 150px;
-  width: 200px;
+.project-image {
+  height: 200px;
+  width: 250px;
   border: 1px solid gray;
   border-radius: 0.5rem;
 }
@@ -102,6 +94,14 @@ section {
   margin-top: 20px;
   display: block;
   font-weight: bold;
+}
+
+[data-bs-theme="light"] .card {
+  box-shadow: rgb(225, 225, 225) 5px 5px 5px;
+}
+
+[data-bs-theme="dark"] .card {
+  box-shadow: rgb(25, 25, 25) 5px 5px 5px;
 }
 
 /* Footer */
